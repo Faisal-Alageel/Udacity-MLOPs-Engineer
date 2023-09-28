@@ -1,0 +1,12 @@
+2023-09-28 16:22:48 [    INFO] Testing import_data from file: ./data/bank_data.csv - SUCCESS
+2023-09-28 16:22:48 [    INFO] Returned dataframe with shape: (10127, 20)
+2023-09-28 16:22:48 [   ERROR] Testing import_data from file: ./data/no_file.csv: The file wasn't found
+2023-09-28 16:22:52 [    INFO] Testing perform_eda - SUCCESS
+2023-09-28 16:22:52 [    INFO] Testing encoder_helper with ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category'] - SUCCESS
+2023-09-28 16:22:52 [    INFO] All categorical columns were encoded
+2023-09-28 16:22:52 [    INFO] Testing encoder_helper with ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category'] - SUCCESS
+2023-09-28 16:22:52 [   ERROR] At least one categorical column was NOT encoded - Check categorical features submitted
+2023-09-28 16:22:52 [   ERROR] Testing encoder_helper with ['Gender', 'Education_Level', 'Marital_Status', 'Income_Category', 'Card_Category', 'Not_a_column'] failed: Check for categorical features not in the dataset
+2023-09-28 16:22:53 [    INFO] Testing perform_feature_engineering - SUCCESS
+2023-09-28 16:22:53 [    INFO] perform_feature_engineering returned Train / Test set of shape (7088, 19) (3039, 19)
+2023-09-28 16:25:45 [    INFO] Testing train_models: SUCCESS
