@@ -15,7 +15,6 @@ The project follows these steps:
 - Identifying the most important features influencing predictions and visualizing their impact using SHAP library
 - Saving the best models along with their performance metrics
 
-
 ### Project Structure
 
 The project directory is organized as follows:
