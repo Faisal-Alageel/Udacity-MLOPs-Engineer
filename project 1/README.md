@@ -60,11 +60,11 @@ to test the scores, run `pylint churn_library.py` , `pylint churn_script_logging
 Random Forest achieves the best performance on the both training and test sets:
 
 - Classification report:
-![](./images/results/Classification_report_Random Forest.png)
+![](./images/results/Classification_report_Random_Forest.png)
 
 - ROC curve for both models:
 ![](./images/results/ROC_curves.png)
 
 The influence of each feature on the prediction of churn can be visualized using the SHAP module, below is the SHAP model for the randomforest classifier :
 
-![](./images/SHAP/shap_values_random_forest.png)
+![](.\images\results\shap_values_random_forest.png)
