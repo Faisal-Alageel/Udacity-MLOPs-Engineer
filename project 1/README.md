@@ -67,4 +67,4 @@ Random Forest achieves the best performance on the both training and test sets:
 
 The influence of each feature on the prediction of churn can be visualized using the SHAP module, below is the SHAP model for the randomforest classifier :
 
-![](.\images\results\shap_values_random_forest.png)
+![](./images/results/shap_values_random_forest.png)
